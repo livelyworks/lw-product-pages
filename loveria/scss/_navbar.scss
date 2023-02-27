@@ -1,0 +1,66 @@
+.lw-header {
+    height: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/imgs/home-banner/lw-loveria-ban-1-01.png');
+}
+
+#mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    transition: .3s ease-in-out;
+    background-color: #e000a04d;
+    font-family: $subTitleFontFamilyOpt !important;
+}
+
+
+/* Change navbar styling on scroll */
+
+.nav-link {
+    color: $whiteColor;
+    padding: 10px 20px !important;
+    &:hover {
+        color: $primaryColor !important;
+        text-decoration: none;
+    }
+}
+
+.navbar.active {
+    background-color: #e000a04d;
+    backdrop-filter: blur(2px) grayscale(.4);
+    color: $primaryColor;
+}
+
+.navbar.active .nav-link {
+    color: $whiteColor;
+}
+
+
+/* Change navbar styling on small viewports */
+
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #3c3b3ba3 !important;
+        backdrop-filter: blur(2px) grayscale(.4) !important;
+        // opacity: 0.7;
+    }
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: $whiteColor;
+        // padding: 10 20px !important;
+    }
+}
+
+.lw-loveria-toogle {
+    border: 1px solid $primaryColor;
+    padding: 10px !important;
+}
+
+button.navbar-toggler.navbar-toggler-right.lw-loveria-toogle {
+    color: $primaryColor;
+    font-family: $subTitleFontFamilyOpt !important;
+    font-size: 16px;
+}

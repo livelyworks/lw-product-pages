@@ -1,0 +1,43 @@
+.lw-loveria-pro-section {
+    .lw-loveria-theme,
+    .lw-loveria-wallet,
+    .lw-loveria-advertisement,
+    .lw-loveria-payment,
+    .lw-loveria-robust-admin,
+    .lw-loveria-messenger,
+    .lw-loveria-translation {
+        height: 35vh;
+        min-height: 35vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        // width: 100%;
+        // margin-top: -10px;
+    }
+    .lw-loveria-theme {
+        background-image: url('../assets/imgs/pro-details/screenshot 1.png');
+    }
+    .lw-loveria-wallet {
+        background-image: url('../assets/imgs/pro-details/screenshot 2.png');
+    }
+    .lw-loveria-advertisement {
+        background-image: url('../assets/imgs/pro-details/screenshot 3.png');
+    }
+    .lw-loveria-payment {
+        background-image: url('../assets/imgs/pro-details/screenshot-4.png');
+    }
+    .lw-loveria-robust-admin {
+        background-image: url('../assets/imgs/pro-details/screenshot-5.png');
+    }
+    .lw-loveria-messenger {
+        background-image: url('../assets/imgs/pro-details/screenshot-6.png');
+    }
+    .lw-loveria-translation {
+        background-image: url('../assets/imgs/pro-details/screenshot-7.png');
+    }
+    // .col-12.col-md-6.lw-loveria-theme {
+    //     margin-top: -5px;
+    // }
+}
+
+@media(max-width:767px) {}

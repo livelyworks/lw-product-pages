@@ -1,0 +1,32 @@
+$primaryColor:#D2009C;
+$whiteColor:#fff;
+$darColor:#3C3B3B;
+$headingColor:#3C3B3B;
+$subTitleColor:#777575;
+$bgPrimary:#F1F3FF;
+$headingFontFamily:'Poppins',
+sans-serif;
+$subTitleFontFamily:'Varela',
+sans-serif;
+$subTitleFontFamilyOpt:'Varela Round',
+sans-serif;
+
+/**
+ *
+ *
+ *
+ *
+ */
+
+//Bootstrap Icons
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+// Component Load here
+@import '../scss/global';
+@import '../scss/navbar';
+@import '../scss/demo';
+@import '../scss/feature';
+@import '../scss/tech';
+@import '../scss/pro-details';
+@import '../scss/testimonials';
+@import '../scss/newsletter';
+@import '../scss/footer';

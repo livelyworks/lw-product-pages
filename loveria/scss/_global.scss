@@ -1,0 +1,106 @@
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: $headingFontFamily;
+    font-size: 70px;
+    color: $whiteColor;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: $subTitleFontFamilyOpt;
+    font-size: 40px;
+    color: $whiteColor;
+}
+
+h3 {
+    font-family: $headingFontFamily;
+    font-size: 30px;
+    color: $darColor;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: $darColor;
+    font-family: $headingFontFamily;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bg-primary {
+    background: $bgPrimary !important;
+}
+
+.bg-secondary {
+    background-color: $primaryColor !important;
+}
+
+p,
+.lw-loveria-para {
+    font-family: $subTitleFontFamilyOpt;
+    font-size: 1rem;
+    color: $subTitleColor;
+}
+
+@media(max-width:767px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2,
+    h2 div {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p,
+    .lw-loveria-para {
+        font-size: 15px;
+    }
+}
+
+//Home Banner Boder
+.lw-loveria-border {
+    border: 3px solid $primaryColor;
+    width: 12rem;
+    border-radius: 50px;
+}
+
+//Title Border
+.lw-loveria-divider {
+    width: 10%;
+    border-radius: 50px;
+    margin: auto;
+    float: left;
+    border: 3px solid $primaryColor;
+}
+
+.btn {
+    padding: 1rem 1rem;
+    font-family: $subTitleFontFamilyOpt;
+}
+
+.btn-primary {
+    color: $whiteColor;
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+    &:hover {
+        background-color: $whiteColor;
+        color: $primaryColor;
+        border: 1px solid $primaryColor;
+    }
+}
+
+.lw-loveria-mx-auto {
+    margin-left: auto !important;
+}
+
+.lw-logo-img {
+    height: 80px !important;
+    max-width: 60vw !important;
+}
