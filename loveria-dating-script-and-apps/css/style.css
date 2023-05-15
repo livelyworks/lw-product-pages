@@ -459,4 +459,7 @@ button.navbar-toggler.navbar-toggler-right.lw-loveria-toogle {
     font-size: 14px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+#mc_embed_signup {
+    width: auto;
+}
