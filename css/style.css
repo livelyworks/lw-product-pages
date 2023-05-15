@@ -461,5 +461,5 @@ button.navbar-toggler.navbar-toggler-right.lw-loveria-toogle {
 }
 
 #mc_embed_signup {
-    width: auto;
+    width: auto!important;
 }
